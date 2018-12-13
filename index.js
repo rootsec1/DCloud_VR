@@ -27,7 +27,7 @@ componentDidMount() {
   // Play a specific video
   VideoModule.play('myplayer', {
     //source: {url: 'http://localhost:8080/ipfs/QmdU95FktSifTAvZHKuy2NwmCeeLkx6x9CCtqt35MxSFSM'}
-    source: {url: 'http://localhost:6942?hash=QmdU95FktSifTAvZHKuy2NwmCeeLkx6x9CCtqt35MxSFSM'}, 
+    source: {url: 'http://localhost:6942?hash=QmX6mt4q99PvGxrxNTquZLTRJ279Juo6uDHRZT1yPT1Sof'}, 
     stereo: '3DTB', // optionally, supply the format of the video
   });
   Environment.setBackgroundVideo('myplayer');
